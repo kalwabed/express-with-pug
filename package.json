@@ -9,7 +9,7 @@
         "build": "tsc -p ."
     },
     "keywords": [],
-    "author": "",
+    "author": "Kalwabed Rizki",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1",
