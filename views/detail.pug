@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    div.container
+        div.card.my-2
+            div.row.no-gutters
+                a(href="/").btn.btn-outline-primary.mb-1.btn-block  back
+                div.col-auto
+                    figure
+                        img(src=`${people.imageUrl}`, alt="").card-img.img-fluid
+                div.col-auto
+                    div.card-body
+                        h2.card-title About
+                        hr
+                        h3.h4.card-text Full name: #{people.name}
+                        h3.h4.card-text Family: #{people.about.family}
+                        h3.h4.card-text Hobi: #{hobi}
+                        //- add in here

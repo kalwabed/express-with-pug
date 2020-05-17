@@ -1,0 +1,19 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        link(rel="stylesheet", href="/assets/css/style.css", attr)
+        link(rel="stylesheet", href="/assets/css/bootstrap.css", attr)
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="shortcut-icon", href="/assets/favicon.ico")
+        title  #{title}
+    body
+        main
+            block header
+                nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
+                    div.container
+                        a(href="/").navbar-brand ExpressPug
+                        ul.navbar-nav.ml-3.mr-auto
+                            li.nav-item
+                                a(href="/docs").nav-link Documentation
+            block content

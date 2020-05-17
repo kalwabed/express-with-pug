@@ -1,0 +1,20 @@
+[
+    {
+        "id": 12,
+        "name": "Kalwabed Rizki",
+        "imageUrl": "https://images.unsplash.com/photo-1520183802803-06f731a2059f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        "about": {
+            "family": "Rizki",
+            "hobi": ["coding", "game"]
+        }
+    },
+    {
+        "id": 123,
+        "name": "Kaliwa",
+        "imageUrl": "https://images.unsplash.com/photo-1446941303752-a64bb1048d54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        "about": {
+            "family": "Sultan",
+            "hobi": ["design", "research"]
+        }
+    }
+]

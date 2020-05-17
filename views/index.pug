@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    div.container
+        h3 Simple Express(backend) and Pug(template-engine)
+        div.row
+            div.col-3.my-2
+                ul.list-group.list-group-flush
+                    button.list-group-item.active Pilih
+                each people in person
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        span.badge.badge-pill.badge-primary #{people.id}
+                        a(href=`/profile/${people.id}`) #{people.name}

@@ -1,0 +1,27 @@
+{
+    "name": "TsNode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.ts",
+    "scripts": {
+        "start": "node dist/server.js",
+        "dev": "nodemon server.ts",
+        "build": "tsc -p ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pug": "^2.0.4",
+        "underscore": "^1.10.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.6",
+        "@types/node": "^14.0.1",
+        "@types/underscore": "^1.10.0",
+        "nodemon": "^2.0.4",
+        "ts-node": "^8.10.1",
+        "typescript": "^3.9.2"
+    }
+}
